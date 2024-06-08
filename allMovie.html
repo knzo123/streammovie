@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIES</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleM.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="navbar flex1">
+            <div class="logo">
+              <a href=""><h2>Stream Movie</h2></a>
+            </div>
+
+            <nav>
+              <ul id="menuitem">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#populer">Populer</a></li>
+                <li><a href="allMovie.html">Movies</a></li>
+                <li><a href="index.html#new">New</a></li>
+              </ul>
+            </nav>
+            <span class="fa fa-bars" onclick="menutoggle()"></span>
+
+          </div>
+        </div>
+      </header>
+
+      <script>
+        function menutoggle() {
+        if (menuitem.style.maxHeight == '0px') {
+          menuitem.style.maxHeight = "200px"
+        } else {
+          menuitem.style.maxHeight = "0px"
+        }
+      }
+    
+      window.addEventListener("scroll", function() {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 50);
+      })
+      </script>
+
+      <section id="populer" class="popular mtop">
+        <h2>All Movies</h2>
+        <div class="container">
+            <div class="item">
+              <div class="box">
+                <div class="imgBox">
+                  <img src="image/mg.jpeg" alt="">
+                </div>
+    
+                <div class="content">
+                  <a href="mg.html"><i id="palybtn" class="fas fa-play"></i></a>
+                </div>
+                <div class="text">
+                  <h3>My Generation</h3>
+                  <div class="time flex">
+                    <span>3mins 18seconds</span>
+                    <i class="fas fa-circle"></i>
+                    <a>Action</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="box">
+                <div class="imgBox">
+                  <img src="image/mw.jpg" alt="">
+                </div>
+
+                <div class="content">
+                  <a href="mw.html"><i id="palybtn" class="fas fa-play"></i></a>
+                </div>
+                <div class="text">
+                  <h3>Machine War</h3>
+                  <div class="time flex">
+                    <span>1mins 56seconds</span>
+                    <i class="fas fa-circle"></i>
+                    <a>Action</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="imgBox">
+                  <img src="image/laf.jpeg" alt="">
+                </div>
+    
+                <div class="content">
+                  <a href="laf.html"><i id="palybtn" class="fas fa-play"></i></a>
+                </div>
+                <div class="text">
+                  <h3>Life After Fighting</h3>
+                  <div class="time flex">
+                    <span>2mins 14seconds</span>
+                    <i class="fas fa-circle"></i>
+                    <a>Action</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="imgBox">
+                  <img src="image/wl.jpg" alt="">
+                </div>
+    
+                <div class="content">
+                  <a href="wl.html"><i id="palybtn" class="fas fa-play"></i></a>
+                </div>
+                <div class="text">
+                  <h3>The Warrior Life</h3>
+                  <div class="time flex">
+                    <span>2mins 5seconds</span>
+                    <i class="fas fa-circle"></i>
+                    <a>Action</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="imgBox">
+                  <img src="image/skull.jpeg" alt="">
+                </div>
+    
+                <div class="content">
+                  <a href="skull.html"><i id="palybtn" class="fas fa-play"></i></a>
+                </div>
+                <div class="text">
+                  <h3>Skull: The Mask</h3>
+                  <div class="time flex">
+                    <span>2mins 34seconds</span>
+                    <i class="fas fa-circle"></i>
+                    <a>Action</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="imgBox">
+                  <img src="image/kong.jpeg" alt="">
+                </div>
+    
+                <div class="content">
+                  <a href="kong.html"><i id="palybtn" class="fas fa-play"></i></a>
+                </div>
+                <div class="text">
+                  <h3>Kong: Skull Island</h3>
+                  <div class="time flex">
+                    <span>2mins 43seconds</span>
+                    <i class="fas fa-circle"></i>
+                    <a>Action</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="box">
+                <div class="imgBox">
+                  <img src="image/cm.jpeg" alt="">
+                </div>
+    
+                <div class="content">
+                  <a href="cm.html"><i id="palybtn" class="fas fa-play"></i></a>
+                </div>
+                <div class="text">
+                  <h3>A Common Man</h3>
+                  <div class="time flex">
+                    <span>1mins 15seconds</span>
+                    <i class="fas fa-circle"></i>
+                    <a>Action</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="box">
+                <div class="imgBox">
+                  <img src="image/home.jpg" alt="">
+                </div>
+    
+                <div class="content">
+                  <a href="rebuneka.html"><i id="palybtn" class="fas fa-play"></i></a>
+                </div>
+                <div class="text">
+                  <h3>Rebuneka The Doll</h3>
+                  <div class="time flex">
+                    <span>2mins 7seconds</span>
+                    <i class="fas fa-circle"></i>
+                    <a>Action</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="container mtop">
+        <div class="box">
+          <div class="logo">
+            <h2>Stream Movie</h2>
+          </div>
+          <div class="icon">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-youtube-square"></i>
+          </div>
+        </div>
+  
+        <div class="box">
+          <h2>Explore</h2>
+          <div class="flex">
+            <ul>
+              <li>Home</li>
+              <li>Tv Shows</li>
+              <li>Actors</li>
+              <li>Celebrity</li>
+            </ul>
+            <ul class="ul">
+              <li>Movie</li>
+              <li>Video</li>
+              <li>Basketball</li>
+              <li>Coress</li>
+            </ul>
+          </div>
+        </div>
+  
+        <div class="box">
+          <h2>Download App</h2>
+          <div class="img flex1">
+            <img src="image/app1.png" alt="">
+            <img src="image/app2.png" alt="">
+          </div>
+        </div>
+      </div>
+      <p class="legal">&copy; 2024 Copyright Holder All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
