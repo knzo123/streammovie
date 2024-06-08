@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>STREAM MOVIE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!-- Owl Carousel css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- Owl Carousel css-->
+
+
+  <!-- jquery css-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!-- jquery css-->
+
+</head>
+
+<body>
+  <section class="home">
+    <div class="headerbg ">
+      <header>
+        <div class="container ">
+          <div class="navbar flex1">
+            <div class="logo">
+              <a href=""><h2>Stream Movie</h2></a>
+            </div>
+
+            <nav>
+              <ul id="menuitem">
+                <li><a href="">Home</a></li>
+                <li><a href="#populer">Populer</a></li>
+                <li><a href="allMovie.html">Movies</a></li>
+                <li><a href="#new">New</a></li>
+              </ul>
+            </nav>
+            <span class="fa fa-bars" onclick="menutoggle()"></span>
+
+          </div>
+        </div>
+      </header>
+
+      <script>
+        function menutoggle() {
+        if (menuitem.style.maxHeight == '0px') {
+          menuitem.style.maxHeight = "200px"
+        } else {
+          menuitem.style.maxHeight = "0px"
+        }
+      }
+    
+      window.addEventListener("scroll", function() {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 50);
+      })
+      </script>
+
+      <div class="home_content mtop">
+        <div class="container">
+          <div class="left">
+            <h1>REBUNEKA THE DOLL</h1>
+
+            <div class="time flex">
+              <label>R</label>
+              <i class="fas fa-circle"></i>
+              <span>2mins 7seconds</span>
+              <i class="fas fa-circle"></i>
+              <p>2021</p>
+              <i class="fas fa-circle"></i>
+              <button>Horror</button>
+            </div>
+
+            <p>After being possessed by the spirit of her late brother, a wicked doll terrorizes a woman and her loved ones.
+            </p>
+            <div class="button flex">
+              <a href="rebuneka.html"><i id="palybtn" class="fas fa-play"></i></a>
+              <p>WATCH TRAILER</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="populer" class="popular mtop">
+    <div class="container ">
+      <div class="heading flex1">
+        <h2>Most Popular</h2>
+        <a href="allMovie.html"><button>MORE VIDEO</button></a>
+      </div>
+
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/mg.jpeg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="mg.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>My Generation</h3>
+              <div class="time flex">
+                <span>3mins 18seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/mw.jpg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="mw.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Machine War</h3>
+              <div class="time flex">
+                <span>1mins 56seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/laf.jpeg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="laf.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Life After Fighting</h3>
+              <div class="time flex">
+                <span>2mins 14seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/wl.jpg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="wl.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>The Warrior Life</h3>
+              <div class="time flex">
+                <span>2mins 5seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/skull.jpeg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="skull.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Skull: The Mask</h3>
+              <div class="time flex">
+                <span>2mins 34seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/kong.jpeg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="kong.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Kong: Skull Island</h3>
+              <div class="time flex">
+                <span>2mins 43seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/cm.jpeg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="cm.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>A Common Man</h3>
+              <div class="time flex">
+                <span>1mins 15seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="viewed" class="popular mtop">
+    <div class="container ">
+      <div class="heading flex1">
+        <h2>Most Viewed</h2>
+        <a href="allMovie.html"><button>MORE VIDEO</button></a>
+      </div>
+
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/laf.jpeg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="laf.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Life After Fighting</h3>
+              <div class="time flex">
+                <span>2mins 14seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/wl.jpg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="wl.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>The Warrior Life</h3>
+              <div class="time flex">
+                <span>2mins 5seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/skull.jpeg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="skull.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Skull: The Mask</h3>
+              <div class="time flex">
+                <span>2mins 34seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/mg.jpeg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="mg.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>My Generation</h3>
+              <div class="time flex">
+                <span>3mins 18seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/mw.jpg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="mw.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Machine War</h3>
+              <div class="time flex">
+                <span>1mins 56seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Owl Carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+  <!-- Owl Carousel -->
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      dots: false,
+      responsive: {
+        411: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+
+
+
+
+
+
+  <section id="new" class="new_realase top">
+    <div class="container">
+      <div class="owl-carousel owl-carousel2 owl-theme">
+        <div class="items">
+          <div class="left">
+            <div class="img">
+              <img src="image/life.jpeg" alt="">
+            </div>
+            <div class="heading">
+              <h2> <span></span> NEW REALEASE</h2>
+              <h1>LIFE AFTER FIGHTING</h1>
+            </div>
+            <div class="time flex">
+              <label>R</label>
+              <i class="fas fa-circle"></i>
+              <span>2mins 14seconds</span>
+              <i class="fas fa-circle"></i>
+              <a class="flex1"><img src="https://img.icons8.com/color/95/000000/imdb.png" /> 8.5</a>
+              <i class="fas fa-circle"></i>
+              <p>2021</p>
+              <i class="fas fa-circle"></i>
+              <button>Action</button>
+            </div>
+
+            <p>A martial arts instructor is confronted with the disappearance of two of his students, leading him into a direct confrontation with a group of international child traffickers.
+            </p>
+
+            <div class="button flex">
+              <a href="laf.html"><i id="palybtn" class="fas fa-play"></i></a>
+              <p>WATCH TRAILER</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    $('.owl-carousel2').owlCarousel({
+      loop: true,
+      margin: 20,
+      dots: true,
+      items: 1
+    })
+  </script>
+
+
+
+  <section class="popular mtop">
+    <div class="container ">
+      <div class="heading flex1">
+        <h2>Powerful Crime Thrillers</h2>
+        <a href="allMovie.html"><button>MORE VIDEO</button></a>
+      </div>
+
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/mw.jpg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="mw.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Machine War</h3>
+              <div class="time flex">
+                <span>1mins 56seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/laf.jpeg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="laf.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Life After Fighting</h3>
+              <div class="time flex">
+                <span>2mins 14seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/wl.jpg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="wl.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>The Warrior Life</h3>
+              <div class="time flex">
+                <span>2mins 5seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/skull.jpeg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="skull.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Skull: The Mask</h3>
+              <div class="time flex">
+                <span>2mins 34seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="box">
+            <div class="imgBox">
+              <img src="image/kong.jpeg" alt="">
+            </div>
+
+            <div class="content">
+              <a href="kong.html"><i id="palybtn" class="fas fa-play"></i></a>
+            </div>
+            <div class="text">
+              <h3>Kong: Skull Island</h3>
+              <div class="time flex">
+                <span>2mins 43seconds</span>
+                <i class="fas fa-circle"></i>
+                <a>Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- paxi mate ko lai aata hai-->
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      dots: false,
+      responsive: {
+        414: {
+          items: 1
+        },
+        600: {
+          items: 2
+        },
+        1000: {
+          items: 4
+        }
+      }
+    })
+  </script>
+
+
+
+  <footer>
+    <div class="container mtop">
+      <div class="box">
+        <div class="logo">
+          <h2>Stream Movie</h2>
+        </div>
+        <div class="icon">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-youtube-square"></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Explore</h2>
+        <div class="flex">
+          <ul>
+            <li>Home</li>
+            <li>Tv Shows</li>
+            <li>Actors</li>
+            <li>Celebrity</li>
+          </ul>
+          <ul class="ul">
+            <li>Movie</li>
+            <li>Video</li>
+            <li>Basketball</li>
+            <li>Coress</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box">
+        <h2>Download App</h2>
+        <div class="img flex1">
+          <img src="image/app1.png" alt="">
+          <img src="image/app2.png" alt="">
+        </div>
+      </div>
+    </div>
+    <p class="legal">&copy; 2024 Copyright Holder All Rights Reserved</p>
+  </footer>
+</body>
+
+</html>
